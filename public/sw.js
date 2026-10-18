@@ -1,4 +1,4 @@
-const CACHE='marry-delicious-v4';
+const CACHE='marry-delicious-v5';
 const ASSETS=['/','/icon-192.png','/icon-512.png','/images/mahshi.webp','/images/pasta.webp','/images/chicken.webp','/images/menu-ar.webp','/images/menu-en.webp','/images/grape-leaves.jpg','/images/kebab.jpg','/images/chicken-pasta.jpg','/images/baked-pasta.jpg','/images/grilled-chicken.jpg'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS)));self.skipWaiting()});
 self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key)))));self.clients.claim()});

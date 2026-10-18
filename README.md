@@ -20,7 +20,7 @@ Open http://localhost:3000. The scripts use Next.js’s Webpack mode for compati
 - Web app manifest, branded icons and service worker with network-first caching and offline fallback after the first visit.
 - GSAP entrance animation respects reduced motion.
 
-Prices are reproduced without assuming a serving size. Confirm portions, current prices and delivery on WhatsApp. The unlabeled “as per daily price” menu line is presented as a general daily-price enquiry rather than an invented product.
+Every listed dish is priced 50 EGP above the original supplied menu. The original menu image retains its old prices and is labeled accordingly. No serving size is assumed. Confirm portions, current prices and delivery on WhatsApp. The unlabeled “as per daily price” menu line is presented as a general daily-price enquiry rather than an invented product.
 
 ## PWA
 
