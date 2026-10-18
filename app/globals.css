@@ -55,3 +55,6 @@ footer{flex-wrap:wrap;align-items:center}
  .floating-cart strong{white-space:nowrap}
  .gallery-topline{letter-spacing:1px}
 }
+
+.portion-label{display:inline-flex;align-items:center;margin-top:12px;padding:5px 13px;border:1px solid #b4965770;border-radius:999px;background:#f7f3e8b3;color:var(--teal);font-size:16px;font-weight:600;line-height:1.8}
+.cart-portion{display:block;margin-top:4px;font-size:14px;color:#727b63;line-height:1.8}

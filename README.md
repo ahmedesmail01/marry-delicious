@@ -20,7 +20,7 @@ Open http://localhost:3000. The scripts use Next.js’s Webpack mode for compati
 - Web app manifest, branded icons and service worker with network-first caching and offline fallback after the first visit.
 - GSAP entrance animation respects reduced motion.
 
-Every listed dish is priced 50 EGP above the original supplied menu. The original menu image retains its old prices and is labeled accordingly. No serving size is assumed. Confirm portions, current prices and delivery on WhatsApp. The unlabeled “as per daily price” menu line is presented as a general daily-price enquiry rather than an invented product.
+Every listed dish is priced 50 EGP above the original supplied menu. The original menu image retains its old prices and is labeled accordingly. Pasta and tray dishes serve 4 people per basket unit; all other items weigh 1 kg per basket unit. Portion labels appear on menu categories, in the basket and in WhatsApp order lines. Confirm current prices and delivery on WhatsApp. The unlabeled “as per daily price” menu line is presented as a general daily-price enquiry rather than an invented product.
 
 ## PWA
 
